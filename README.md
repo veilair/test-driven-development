@@ -6,6 +6,8 @@ An ongoing curated list of frameworks, books, articles, talks, screencasts, reco
 
 - [Test Driven Development (TDD)](http://agiledata.org/essays/tdd.html) is a programming practice that instructs developers to write new code only if an automated test has failed.
 
+![rgr](https://github.com/veilair/test-driven-development/blob/main/img/rgr.png)
+
 There are two levels of TDD:
 - *Acceptance TDD (ATDD)* - With ATDD you write a single acceptance test, or behavioral specification depending on your preferred terminology, and then just enough production functionality/code to fulfill that test. The goal of ATDD is to specify detailed, executable requirements for your solution on a just in time (JIT) basis. ATDD is also called Behavior Driven Development (BDD).
 
