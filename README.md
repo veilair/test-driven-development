@@ -1,5 +1,8 @@
 # Test-Driven Development (TDD)
 
+> Welcome to the world of Test-Driven Development (TDD)
+An ongoing curated list of frameworks, books, articles, talks, screencasts, recordings, libraries, learning tutorials and resources about test-driven-development.
+
 
 
 
