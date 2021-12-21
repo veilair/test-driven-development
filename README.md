@@ -13,6 +13,7 @@ There are two levels of TDD:
 
 - *Developer TDD* - With developer TDD you write a single developer test, sometimes inaccurately referred to as a unit test, and then just enough production code to fulfill that test. The goal of developer TDD is to specify a detailed, executable design for your solution on a JIT basis. Developer TDD is often simply called TDD.
 
+![red-green-refactor](https://github.com/veilair/test-driven-development/blob/main/img/rgr-1.png)
 
 ## Table of Contents
 
