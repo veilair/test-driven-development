@@ -8,10 +8,13 @@ An ongoing curated list of frameworks, books, articles, talks, screencasts, reco
 
 ![rgr](https://github.com/veilair/test-driven-development/blob/main/img/rgr.png)
 
-There are two levels of TDD:
-- *Acceptance TDD (ATDD)* - With ATDD you write a single acceptance test, or behavioral specification depending on your preferred terminology, and then just enough production functionality/code to fulfill that test. The goal of ATDD is to specify detailed, executable requirements for your solution on a just in time (JIT) basis. ATDD is also called Behavior Driven Development (BDD).
+TDD follows a 3-step process:
 
-- *Developer TDD* - With developer TDD you write a single developer test, sometimes inaccurately referred to as a unit test, and then just enough production code to fulfill that test. The goal of developer TDD is to specify a detailed, executable design for your solution on a JIT basis. Developer TDD is often simply called TDD.
+- Write a Failing Test - Understand the (user) requirements/story well enough to write a test for what you expect. (the test should fail initially - hence it being "Red")
+
+- Make the (failing) Test Pass - Write (only) the code you need to make the (failing) test pass, while ensuring your existing/previous tests all still pass (no regressions).
+
+- Refactor the code you wrote take the time to tidy up the code you wrote to make it simpler (for your future self or colleagues to understand) before you need to ship the current feature, do it.
 
 ![red-green-refactor](https://github.com/veilair/test-driven-development/blob/main/img/rgr-1.png)
 
