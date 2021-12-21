@@ -4,7 +4,11 @@
 An ongoing curated list of frameworks, books, articles, talks, screencasts, recordings, libraries, learning tutorials and resources about test-driven-development.
 
 
+*Test Driven Development (TDD)* is a programming practice that instructs developers to write new code only if an automated test has failed.
 
+There are two levels of TDD:
+- Acceptance TDD (ATDD) - With ATDD you write a single acceptance test, or behavioral specification depending on your preferred terminology, and then just enough production functionality/code to fulfill that test. The goal of ATDD is to specify detailed, executable requirements for your solution on a just in time (JIT) basis. ATDD is also called Behavior Driven Development (BDD).
+- Developer TDD - With developer TDD you write a single developer test, sometimes inaccurately referred to as a unit test, and then just enough production code to fulfill that test. The goal of developer TDD is to specify a detailed, executable design for your solution on a JIT basis. Developer TDD is often simply called TDD.
 
 
 ## Table of Contents
